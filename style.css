@@ -132,3 +132,47 @@
 .banner-img img{
     width: 100%;
 }
+
+
+/* games section  */
+
+.games{
+    margin: 10px 200px;
+    
+    
+}
+
+.games h3{
+    margin-top: 50px;
+    font-size: 50px;
+    color: #0B0223;
+    font-weight: 700px ;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.funny{
+    
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    
+    
+}
+
+.games p {
+    color: #534C64;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.games-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+
+}
+.games-img img {
+    width: 100%;
+}
