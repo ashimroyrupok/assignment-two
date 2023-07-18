@@ -261,3 +261,55 @@
        
     }
 
+
+    /* footer section  */
+
+    footer{
+        margin-top: 50px;
+        background-color: #0B0223;
+       
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-logo{
+        display: flex;
+        padding-top: 90px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-logo-title{
+        color: white;
+        font-size: 40px;
+
+    }
+    .footer-contant{
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .footer-logo-container{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 40px;
+    }
+    .footer-terms{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        color: rgba(255, 255, 255, 0.60);
+        gap: 50px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .last-footer p {
+        color: rgba(255, 255, 255, 0.60);
+        font-weight: 500;
+    }
+
+    
+    
