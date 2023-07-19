@@ -61,11 +61,17 @@
     font-size: 18px;
     font-weight: 500px;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
+    text-align: center;
+    margin-bottom: 30px;
     
 
 
+}
+
+.menu-btn img{
+    width: 20px;
 }
 
 /* banner section  */
@@ -330,9 +336,11 @@
         }
         .menu-item ul{
             flex-direction: column;
+            margin-left: -30px;
             }
             .menu-item ul li {
                 margin-top: 20px;
+                margin-left: -20px;
             }
 
         .banner{
