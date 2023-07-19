@@ -210,12 +210,13 @@
     }
 
 
-    .play-img img{
+    .play-img>img{
         width: 400px;
         height: 90%;
 
+
         
-         margin-left: -120px;  
+         margin-left: -190px;  
     }
 
     
@@ -224,12 +225,14 @@
         width: 50%;
         position: relative;
         bottom: 100px;
-        left: -80px;
+        left: -230px;
     }
 
 
 
     /* banneer logo  */
+
+
     .banner-logo{
         display: flex;
         flex-basis: 150px;
@@ -246,6 +249,7 @@
         display: flex;
         align-items: center;
         margin: 10px;
+        border: 2px solid transparent;
 
     }
     .banner-logo .logo p{
@@ -354,7 +358,9 @@
             width: 399px;
             height: 400px;
             object-fit:fill ;
-            /* margin-left: ; */
+            position: relative;
+            left: -60px;
+            
         }
         .banner-contant{
             width: 950px;
@@ -470,7 +476,7 @@
     .badge img{
         width: 25%;
         position: relative;
-        bottom: 100px;
+        bottom: 70px;
         left: -40px;
     }
 
