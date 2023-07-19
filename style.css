@@ -186,8 +186,9 @@
 
 }
 .play-contant{
-    text-align: left;  
+    text-align:right;  
     padding: 200px;
+    margin-right: 50px;
     
 
 
@@ -204,10 +205,11 @@
 
 
     .play-img img{
-        width: 90%;
-        height: 100%;
+        width: 400px;
+        height: 90%;
+
         
-        /* margin-left: 70px;  */
+         margin-left: -120px;  
     }
 
     
@@ -290,6 +292,7 @@
         justify-content: center;
         margin-top: 40px;
         gap: 20px;
+        font-weight: 500px;
     }
     .footer-logo-container{
         display: flex;
@@ -309,6 +312,130 @@
     .last-footer p {
         color: rgba(255, 255, 255, 0.60);
         font-weight: 500;
+    }
+
+
+
+
+
+    /* media quaris  */
+
+    @media screen   and (max-width:576px) {
+        .menu{
+            flex-direction: column;
+            text-align: center;
+            margin: 20px auto;
+            
+            flex-wrap: wrap;
+        }
+        .menu-item ul{
+            flex-direction: column;
+            }
+            .menu-item ul li {
+                margin-top: 20px;
+            }
+
+        .banner{
+            flex-direction: column;
+        }
+        .banner-img img {
+            width: 399px;
+            height: 400px;
+            object-fit:fill ;
+            margin-left: -30px;
+        }
+        .banner-contant{
+            width: 950px;
+            
+            text-align: center;
+            margin: 30px 40px;
+        }
+
+        .banner-contant h2 {
+            font-size: 30px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .banner-contant h2{
+            font-size: 65px;
+        }
+
+        .games{
+            margin: 10px ;
+            
+            
+        }
+        .games-img{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        
+        }
+
+        .play{
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        
+        }
+
+        .play-contant{
+            text-align:center;  
+            padding: 20px;
+            margin-right: 50px;
+            
+        
+        
+            }
+
+            .banner-img{
+                padding-left: -50px;
+            }
+            .play-img{
+                margin-top: 30px;
+            }
+
+            
+    .play-img img{
+        width: 70%;
+        object-fit: fit;
+        
+
+        
+         margin-left:50px;  
+    }
+
+    .badge img{
+        width: 25%;
+        position: relative;
+        bottom: 100px;
+        left: -40px;
+    }
+
+    
+    .banner-logo{
+        
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 10px 40px;
+
+    }
+
+    .banner-logo .logo p{
+        margin-left:0px;
+        font-size:14px;
+        font-weight: 600;
+        
+    }
+    .banner-logo .logo image-rendering: ;
+
+
+
+
+
+
+        
     }
 
     
