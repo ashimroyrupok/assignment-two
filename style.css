@@ -466,7 +466,7 @@
     .play-img img{
         width: 70%;
         object-fit: fit;
-        /* margin-left: -80px; */
+        
         
 
         
@@ -573,7 +573,7 @@
 
 
     /* tablet media quary  */
-    @media screen and (min-width:577px) and (max-width:1200px) {
+    @media screen and (min-width:577px) and (max-width:1000px) {
 
         main {
             /* overflow-x: hidden; */
@@ -589,6 +589,10 @@
         }
         .menu-item ul{
             margin-top: 50px;
+        }
+        .banner{
+            position: relative;
+            left: -80px;
         }
         .banner-contant{
             padding-right: -70px;
@@ -631,6 +635,7 @@
             align-items: center;
             margin: 20px;
             padding-left: 50px;
+            margin-right: -90px;
 
         }
         .play-contant{
@@ -642,6 +647,22 @@
         .play-contant h3{
             margin-bottom: 40px;
 
+        }
+        .play-img img{
+            width: 70%;
+            object-fit: fit;
+            
+            
+    
+            
+              margin-left:50px;  
+        }
+    
+        .badge img{
+            width: 25%;
+            position: relative;
+            bottom: 90px;
+            left: -40px;
         }
 
         .banner-logo{
@@ -672,6 +693,11 @@
         }
         .banner-logo .logo img{
             width: 30px;
+        }
+
+        footer {
+            margin: 10px 3px;
+
         }
     
         
